@@ -2,6 +2,6 @@
   (:use clojure.test
         happy-birthday.core))
 
-(deftest a-test
-  (testing "FIXME, I fail."
-    (is (= 0 1))))
+(deftest main-test 
+  (testing "The program runs and exits successfully"
+    (is (= (-main) 0))))
