@@ -4,7 +4,8 @@
         [overtone.inst.synth]
         [leipzig.melody]
         [leipzig.canon]
-        [leipzig.scale]))
+        [leipzig.scale]
+        [leipzig.live]))
 
 (defmethod play-note :piano
   [{midi :pitch}]
